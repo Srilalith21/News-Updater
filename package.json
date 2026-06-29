@@ -1,0 +1,19 @@
+{
+  "name": "teleramnewsupdates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "sri lalith",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2",
+    "node-cron": "^4.5.0",
+    "node-telegram-bot-api": "^1.1.2"
+  }
+}
