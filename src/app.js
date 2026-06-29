@@ -9,7 +9,7 @@ const sendMessageTask = async () => {
   }
 };
 
-// Schediling a task to run every 1 minute for testing purposes. In production, it should be set to run every 4 hours.
+// Schediling a task to run every 4 hours.
 const task = corn.schedule("* */4 * * *", sendMessageTask, {
   scheduled: true,
   timezone: "Asia/Kolkata",
